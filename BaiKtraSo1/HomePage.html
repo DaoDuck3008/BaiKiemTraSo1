@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang tin tức</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="title-container">
+          <h1>Trang tin tức</h1>
+        </div>
+        <div class="navbar">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">☰ Menu</label>
+          <ul>
+            <li><a class="active" href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#products">Sản phẩm</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+
+            <li style="float: right; margin-left: 10px">
+              <label class="switch">
+                <input type="checkbox" id="toggle-darkmode" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li style="background-color: black; float: right">
+              <a class="active" id="dangKi" href="#dangKy">Đăng ký</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- body -->
+    <main>
+      <div class="container">
+        <div class="sidebar-container">
+          <div class="sidebar card">
+            <a class="active" href="#home">Bài 1</a>
+            <a href="#news">Bài 2</a>
+            <a href="#contact">Bài 3</a>
+            <a href="#about">Bài 4</a>
+            <a href="#about">Bài 5</a>
+          </div>
+        </div>
+        <div class="content-container card">
+          <!-- Product 1 -->
+          <div class="product-container">
+            <div class="thumbnail-container">
+              <img
+                src="https://i1-vnexpress.vnecdn.net/2025/08/13/202508131053230898-gen-h-z6902-5856-2653-1755059983.jpg?w=680&h=408&q=100&dpr=2&fit=crop&s=GPCu1mdD2CayVkYDPRHZYg"
+              />
+              <div style="display: flex">
+                <p>Lượt xem:</p>
+                <p id="view-count">0</p>
+              </div>
+            </div>
+            <div class="content">
+              <h3>
+                'Bỏ bằng tốt nghiệp trung học cơ sở theo thông lệ quốc tế'
+              </h3>
+              <div>
+                <p>
+                  Bộ Giáo dục và Đào tạo bảo lưu đề xuất bỏ bằng tốt nghiệp
+                  trung học cơ sở nhằm đơn giản hóa quy trình quản lý, tiết kiệm
+                  chi phí và phù hợp với mô hình giáo dục của nhiều quốc gia
+                  phát triển.
+                </p>
+                <button class="viewbtn">Xem bài viết</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Product 2 -->
+          <div class="product-container">
+            <div class="thumbnail-container">
+              <img
+                src="https://i1-vnexpress.vnecdn.net/2025/08/13/xe-ruoc-can-bo-vinh-long-17549-1806-7313-1755068413.jpg?w=680&h=408&q=100&dpr=2&fit=crop&s=DHZ3NisaJpEkk1JKNk6biQ"
+              />
+              <div style="display: flex">
+                <p>Lượt xem:</p>
+                <p id="view-count">0</p>
+              </div>
+            </div>
+            <div class="content">
+              <h3>
+                Công chức chung tiền thuê phòng trọ, ôtô đi làm sau sáp nhập
+              </h3>
+              <div>
+                <p>
+                  Từ 1/7, sau sáp nhập Quảng Trị với Quảng Bình, nữ công chức Sở
+                  Văn hóa Thể thao Du lịch tỉnh Quảng Trị nằm trong số hơn 1.300
+                  người chuyển ra làm việc tại Trung tâm hành chính ở phường
+                  Đồng Hới. Nhà cách cơ quan hơn 100 km, chưa được bố trí nhà ở
+                  công vụ, chị quyết định thuê phòng trọ cùng một đồng nghiệp.
+                </p>
+                <button class="viewbtn">Xem bài viết</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Product 3 -->
+          <div class="product-container">
+            <div class="thumbnail-container">
+              <img
+                src="https://i1-kinhdoanh.vnecdn.net/2025/08/12/z6899773079808-0cedec929d9b43c-5504-5944-1754992698.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=cr2eCD0JW06wJPYTWnw8xg"
+              />
+              <div style="display: flex">
+                <p>Lượt xem:</p>
+                <p id="view-count">0</p>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Tài khoản giao thông khác gì tài khoản thu phí?</h3>
+              <div>
+                <p>
+                  Tài khoản giao thông (áp dụng từ 1/10) không chứa tiền như tài
+                  khoản thu phí (hiện tại), nó cần liên kết tới ví hoặc thẻ,
+                  được dùng cho nhiều dịch vụ giao thông thay vì chỉ thu phí
+                  không dừng.<br />
+                  Các tài khoản thu phí của chủ phương tiện buộc phải chuyển
+                  sang tài khoản giao thông trước 1/10, nếu không, sẽ không thể
+                  qua được trạm thu phí không dừng.
+                </p>
+                <button class="viewbtn">Xem bài viết</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p>Copyright © 2012 - 2025 TermsFeed®. All rights reserved.</p>
+        <div class="time"></div>
+      </div>
+    </footer>
+
+    <!-- Popup đăng ký -->
+    <div id="register-popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn" id="close-popup">&times;</span>
+        <h2>Đăng ký tài khoản</h2>
+        <form id="register-form">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Nhập email"
+            required
+          />
+
+          <label for="password">Mật khẩu:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Nhập mật khẩu"
+            required
+          />
+
+          <button type="submit">Đăng ký</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
